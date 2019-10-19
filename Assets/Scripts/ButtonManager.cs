@@ -83,7 +83,6 @@ public class ButtonManager : MonoBehaviour
         SceneManager.UnloadSceneAsync(2);
         SceneManager.SetActiveScene(SceneManager.GetSceneByBuildIndex(1));
         StaticVariables.currentScene = 1;
-
     }
 
     public void ResetOpenScreen()
